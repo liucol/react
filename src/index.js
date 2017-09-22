@@ -4,6 +4,6 @@ import Welcome from './Welcome';
 import './index.css';
 
 ReactDOM.render(
-    <Welcome/>,
+    <Welcome name="杨柳"/>,
     document.getElementById('root')
 )
