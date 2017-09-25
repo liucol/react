@@ -28,7 +28,7 @@ class App extends Component {
                 <div className="inputWrapper">
                     <TodoInput content={this.state.newTodo}  onChange={this.changeTitle.bind(this)} onSubmit={this.addTodo.bind(this)}/>
                 </div>
-                <ol>
+                <ol className="todoList">
                     {todos}
                 </ol>
             </div>
